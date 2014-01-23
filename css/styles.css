@@ -408,60 +408,75 @@ table {
 html, body {
 	font-family: Helvetica, arial, sans-serif;
 	font-size:14px;
-	background-image: url(http://assets0.ordienetworks.com/misc/Waving%20Arms%20Inflatable%20Battle.gif);
+	background-image: url(http://media.giphy.com/media/1RTu3VpzdfUCQ/giphy.gif);
+    background-size: 100%;
 	color: #333;
 }
 
-h1 {
-    font-size: 32px;
-    font-weight: 200;
-    color: #666;
-}
-h2 {
-    font-weight: bold;
-    color: #333;
-    font-size: 18px;
-}
-a {
-    color: #0099e5;
-    text-decoration: none;
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.page {
-    width: 450px;
-    margin: 20px auto;
-    padding: 10px 20px;
+.main-nav {
+    width: 100%;
+    margin: 0 auto;
+    background: #f2f2f2;
+    padding: 10px 20px 10px 20px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.15);
-    background-color: #fff;
+    opacity: 0.8;
 }
 
+.main-nav a {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0 10px 5px 0;
+    border: 1px solid #777;
+    box-shadow: 0px 1px 1px #444;
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    color: #fff;
+    text-shadow: ;
+    background: linear-gradient(#848484, #717171);
 
-.cool-cat {
+}
+
+.main-nav a:hover {
+    background: linear-gradient(#b4b4b4, #a4a4a4);
+}
+
+.nav-links a{
+    float: right;
+}
+
+.nav-links a:first-child {
     float: left;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
-}
-
-.uwo {
-    float: right;
-    width: 150px;
-    height: 40px;
-}
-
-.BS {
-    float: right;
-    width: 150px;
-    height: 40px;
 }
 
 header h1 {
-    line-height: 100px;
+    position: relative;
+    margin: 0 auto;
 }
 
-article {
-    padding: 20px;
+ width: 700px;
 }
+
+footer {
+    margin: 30px 0 0 0;
+    padding: 15px 0;
+}
+
+footer h6 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
